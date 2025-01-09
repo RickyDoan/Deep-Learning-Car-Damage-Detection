@@ -1,4 +1,8 @@
 streamlit==1.41.1
 pillow==11.0.0
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
+streamlit>=1.0
+Pandas == 2.2.2
+xgboost==2.1.2
+streamlit==1.39.0
+scikit-learn ==1.5.1
+joblib==1.4.2
