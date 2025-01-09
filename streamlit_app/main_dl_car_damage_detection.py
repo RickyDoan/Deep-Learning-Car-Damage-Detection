@@ -1,8 +1,9 @@
 import streamlit as st
 from PIL import Image
-from torchvision import models, transforms
+
 import torch
 from torch import nn
+from torchvision import models, transforms
 
 # Load the pre-trained ResNet model
 class CarClassifierResNet(nn.Module):
