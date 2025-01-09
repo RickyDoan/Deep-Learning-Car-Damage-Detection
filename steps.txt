@@ -1,0 +1,15 @@
+1/ import library
+2/ Do transform : resize, horizontal, vertical, randomRotation, color, totensor, normalize
+-- > dataset = datasets.ImageFolder(root..., transform = transform )
+3/ train_size = int(0.75*len(dataset)) , test_size = len(dataset) - train_size
+4/ Explore images, labels -> present image
+5/ Doing with class and training normally .
+6/ Improvement by add dropout, Batch2d, weight_decay to reduce overfitting by apply regularization:
+ --> Dưới Con bỏ BatNorm, Cuối cùng dưới ReLu bỏ DropOut. weight_decay= 1e-4
+7 test again to get the new results
+8 apply pretrained transfer with resnet 18 and efficient b0.
+9 Check and do it with the optuna for the highest accuracy from the pretrained transfer
+10 get the best param then plug back to the pretrained and train again to get the best accuracy.
+11 Check report accuracy and
+12 save model : torch.save(model.state_dict(),'best_model.pth'
+13 . Get version tool : pip freeze | grep 'tool'
