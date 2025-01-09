@@ -1,4 +1,4 @@
-# 🚗 Car Damage Detection with Deep Learning
+# 🚗 Deep Learning - Car Damage Detection with CNNs
 This repository contains an end-to-end pipeline for detecting and classifying car damages using Convolutional Neural Networks (CNNs) and pretrained models integrated with APIs and UI for deployment.
 ## Overview
 This project aims to classify car damages into multiple categories like front crushed, rear breakages, normal conditions, etc., leveraging state-of-the-art deep learning technologies.
