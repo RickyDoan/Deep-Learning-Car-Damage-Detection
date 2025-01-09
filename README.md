@@ -7,15 +7,16 @@ This project aims to classify car damages into multiple categories like front cr
 - **Custom CNN**: Built from scratch and compared with pretrained methods.
 - **Hyperparameter Tuning**: Automated using **Optuna**!
 - **FastAPI**: An API endpoint for real-time predictions.
-- **Streamlit Web App**: Interactive UI for demo purposes.
 
 ### Technical Highlights:
 - **Data Augmentation**: Extensive transformations for robust model generalization.
-- **GPU Training**: Utilized PyTorch for CUDA-accelerated training.
+- **GPU Training**: Utilized PyTorch for CUDA-accelerated training on google collab
 - **Inference Pipeline**: Image preprocessing, prediction, and visualization!
-- **Deployment**: FastAPI endpoint for integration with applications and services.
 
 ### Usage:
 1. **Clone Repository**
 2. **Train from Scratch or Use Pretrained Weights**
-3. **Deploy Locally or on Cloud** 🌐
+
+### **Evaluation**: 
+* Confusion matrix and classification reports validate the models.
+* Accuracy is around 80%
