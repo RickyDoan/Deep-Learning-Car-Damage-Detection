@@ -1,6 +1,8 @@
-pillow==11.0.0
-streamlit>=1.0
-scikit-learn ==1.5.1
-torch==2.2.2
-torchaudio==2.2.2
-torchvision==0.17.2
+# Specify PyTorch download URL for CPU version
+-f https://download.pytorch.org/whl/cpu
+
+pillow>=10.0.0
+streamlit>=1.18.0
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+torchaudio==2.2.2+cpu
