@@ -1,28 +1,21 @@
-# Vehicle Damange Detection App
+# 🚗 Car Damage Detection with Deep Learning
+This repository contains an end-to-end pipeline for detecting and classifying car damages using Convolutional Neural Networks (CNNs) and pretrained models integrated with APIs and UI for deployment.
+## Overview
+This project aims to classify car damages into multiple categories like front crushed, rear breakages, normal conditions, etc., leveraging state-of-the-art deep learning technologies.
+### Features:
+- **Pretrained Models**: Transfer learning with **ResNet50**, **EfficientNet** with fine-tuning for task-specific accuracy.
+- **Custom CNN**: Built from scratch and compared with pretrained methods.
+- **Hyperparameter Tuning**: Automated using **Optuna**!
+- **FastAPI**: An API endpoint for real-time predictions.
+- **Streamlit Web App**: Interactive UI for demo purposes.
 
-This app let's you drag and drop an image of a car and it will tell you what kind of damage it has.
-The model is trained on third quarter front and rare view hence the picture should capture the third quarter front or rare view of a car.
+### Technical Highlights:
+- **Data Augmentation**: Extensive transformations for robust model generalization.
+- **GPU Training**: Utilized PyTorch for CUDA-accelerated training.
+- **Inference Pipeline**: Image preprocessing, prediction, and visualization!
+- **Deployment**: FastAPI endpoint for integration with applications and services.
 
-
-!app
-### Model Details
-1. Used ResNet50 for transfer learning
-2. Model was trained on around 1700 images with 6 target classes
-   1. Front Normal
-   1. Front Crushed
-   1. Front Breakage
-   1. Rear Normal
-   1. Rear Crushed
-   1. Rear Breakage
-9. The accuracy on the validation set was around 79%
-
-### Set Up
-
-1. To get started, first install the dependencies using:
-    ```commandline
-     pip install -r requirements.txt
-    ```
-   
-2. Run the streamlit app:
-   ```commandline
-   streamlit run main_dl_car_damage_detection.py
+### Usage:
+1. **Clone Repository**
+2. **Train from Scratch or Use Pretrained Weights**
+3. **Deploy Locally or on Cloud** 🌐
