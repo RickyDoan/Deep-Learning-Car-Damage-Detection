@@ -1,8 +1,4 @@
-# Specify PyTorch download URL for CPU version
--f https://download.pytorch.org/whl/cpu
-
-pillow>=10.0.0
-streamlit>=1.18.0
-torch==2.2.2+cpu
-torchvision==0.17.2+cpu
-torchaudio==2.2.2+cpu
+streamlit
+pillow
+torch
+torchvision
