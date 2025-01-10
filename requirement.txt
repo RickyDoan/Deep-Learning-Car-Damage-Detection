@@ -1,8 +1,0 @@
-   setuptools>=65.5.1
-   wheel>=0.41.2
-   streamlit==1.41.1
-   numpy==1.23.5
-   torch==2.0.1
-   torchvision==0.15.2
-   pillow==11.1.0
-   pandas==2.2.3
