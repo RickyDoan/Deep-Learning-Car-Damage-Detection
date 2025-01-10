@@ -1,5 +1,8 @@
 import streamlit as st
 from PIL import Image
+import os
+
+os.system("pip install torch==2.0.1+cpu torchvision==0.15.2+cpu --extra-index-url https://download.pytorch.org/whl/cpu")
 
 import torch
 from torch import nn
